@@ -308,3 +308,16 @@ li {
   font-size: 0.85em;
   line-height: 1.5em;
 }
+
+@media screen and (min-width: 1280px) {
+  .skills {
+    display: flex;
+  }
+  .skills .part {
+    flex: 1;
+  }
+}
+
+.skills .part {
+  margin-bottom: 1em;
+}
